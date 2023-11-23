@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+.logo{
+    width: 50px;
+   margin-left: 50px;                                                                                                                                                                                                                                                    
+}
+.logo img{
+    width: 100%;
+}
+.menu-icon i{
+    padding: 0 10px;
+    color: #141414;                                                  
+}
+nav a {
+    color: #141414;
+    text-decoration: none;
+    padding: 0 15px;
+} 
+.menu-sec{
+    position: relative;
+    left: -50px;
+}
+.menu-sec a{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.menu-sec a span{
+    color: rgb(240, 12, 99);
+}
+.search{
+    font-size: 0.8rem;
+    background-color: #e7e7e7c5;
+    border-radius: 5px;
+    transition: all ease 0.8s;
+}
+.search i{
+    padding: 0 10px;
+    color: black;
+}
+.search:hover{
+    background-color: #fff;
+    border: 1px solid black;
+}
+.search input{
+    width: 300px;
+    outline: none;
+    height: 40px;
+    color: black;
+    border-radius: 4px;
+    background: none;
+    border: none;
+    font-size: 0.8rem;
+}
+.product h3{
+    margin: 60px;
+}
+.procuct-box{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-body{
+    line-height: 0px;
+
+}
+.card-body p{
+    font-size: 1rem;
+    color: #141414;
+}
+.card-body h6{
+    font-weight: bold;
+}
+.collection{
+    width: 200px;
+    position: relative;
+    margin: 10px;
+}
+.collection .desc{
+  background: linear-gradient(rgba(255, 196, 0, 0.432), rgba(255, 51, 0, 0.699));
+    width: 90%;
+    position: absolute;
+    bottom: 5px;
+    border-radius: 5px;
+    left: 10px;
+  padding: 0 5px;
+    
+}
+ .desc h2,p{
+    color: #fff;
+    text-align: center;
+}
+/* footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
